@@ -1,0 +1,15 @@
+const USER_STATUS = ["CREATED", "UPDATED", "DELETED"];
+const ADDRESS_STATUS = ["CREATED", "UPDATED", "DELETED"];
+const ORDER_STATUS = [
+  "PLACED",
+  "CONFIRMED",
+  "PICKED",
+  "DELIVERED",
+  "PROCESSING",
+];
+
+module.exports = {
+  USER_STATUS,
+  ADDRESS_STATUS,
+  ORDER_STATUS,
+};
